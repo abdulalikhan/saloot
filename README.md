@@ -1,3 +1,5 @@
+## Saloot
+
 ## What's Saloot?
 
 Saloot is an A.I based personal assistant for Whatsapp. It can automatically respond to new messages from Whatsapp users and groups. It is an open source project built using Python.
