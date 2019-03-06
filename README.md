@@ -4,6 +4,10 @@
 
 Saloot is an A.I based personal assistant for Whatsapp. It can automatically respond to new messages from Whatsapp users and groups. It is an open source project built using Python.
 
+Saloot was developed by Abdul Ali Khan. You may get in touch with him through the following links:
+https://pk.linkedin.com/in/abdul-ali-khan-620632144
+http://abdul.ali.com.pk/
+
 ### Prerequisites
 
 In order to run Saloot, your system must have the following programs/packages installed:
