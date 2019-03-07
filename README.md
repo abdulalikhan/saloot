@@ -8,6 +8,9 @@ Saloot was developed by Abdul Ali Khan. You may get in touch with him through th
 1. https://pk.linkedin.com/in/abdul-ali-khan-620632144
 2. http://abdul.ali.com.pk/
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U6P7lbsA5p0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U6P7lbsA5p0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ### Prerequisites
 
 In order to run Saloot, your system must have the following programs/packages installed:
