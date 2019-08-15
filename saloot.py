@@ -9,7 +9,7 @@ print("   _________ _/ /___  ____  / /_")
 print("  / ___/ __ `/ / __ \/ __ \/ __/")
 print(" (__  ) /_/ / / /_/ / /_/ / /_  ")
 print("/____/\__,_/_/\____/\____/\__/  ")
-print("                            v1.0")
+print("                            v1.1")
 print('Whatsapp Personal Assistant')
 print('Coded by Abdul Ali Khan')
 name = "John Doe" # Put your name in quotes here
@@ -18,7 +18,7 @@ name = "John Doe" # Put your name in quotes here
 # To hide all errors from the user, set log level to 3.
 chrome_options = Options()
 chrome_options.add_argument("log-level=3")
-driver = webdriver.Chrome(chrome_options=chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 driver.get('https://web.whatsapp.com/')
 
 # Main
@@ -41,20 +41,20 @@ elif choice == "saloot":
                         user = driver.find_element_by_xpath('//span[@class = "{}"]//ancestor::div[4]'.format("OUeyt"))
                         user.click()
                         # Find textbox
-                        msg_box = driver.find_element_by_class_name('_2S1VP')
+                        msg_box = driver.find_element_by_class_name('_3u328')
                         for elem in driver.find_elements_by_xpath('.//span[@class = "selectable-text invisible-space copyable-text"]'):
                                 receivedmsg = elem.text
                                 #print(elem.text)
                         msg = str(bot.get_response(receivedmsg))
                         # Tell receiver that this message is from a bot
                         msg_box.send_keys("{0} is currently unavailable. You are currently chatting with his bot, Saloot.".format(name))
-                        button = driver.find_element_by_xpath("(//div[@class='weEq5'])[2]").click()
+                        button = driver.find_element_by_xpath("(//div[@class='hnQHL'])[2]").click()
                         try:
                                 button.click()
                         except AttributeError as e:
                                 print('')
                         msg_box.send_keys(msg)
-                        button = driver.find_element_by_xpath("(//div[@class='weEq5'])[2]").click()
+                        button = driver.find_element_by_xpath("(//div[@class='hnQHL'])[2]").click()
                         try:
                                 button.click()
                         except AttributeError as e:
