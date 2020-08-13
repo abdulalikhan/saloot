@@ -20,6 +20,12 @@ In order to run Saloot, your system must have the following programs/packages in
 2. [ChatterBot](https://github.com/gunthercox/ChatterBot)
 3. [Google Chrome](https://www.google.com/chrome/)
 
+### Note
+
+If you're encountering errors while installing the Chatterbot module, install an order version of Chatterbot using the following command:
+`pip install chatterbot==1.0.4`
+For more details, [Click here](https://github.com/gunthercox/ChatterBot/issues/1854).
+
 ### Support or Contact
 
-Having trouble with Saloot? [email us](mailto:alikhan@cocashcreators.com) and we’ll help you sort it out.
+Having trouble with Saloot? [email me](mailto:alikhan@cocashcreators.com) and I’ll help you sort it out.
