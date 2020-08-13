@@ -9,7 +9,7 @@ print("   _________ _/ /___  ____  / /_")
 print("  / ___/ __ `/ / __ \/ __ \/ __/")
 print(" (__  ) /_/ / / /_/ / /_/ / /_  ")
 print("/____/\__,_/_/\____/\____/\__/  ")
-print("                            v1.1")
+print("                            v1.2")
 print('Whatsapp Personal Assistant')
 print('Coded by Abdul Ali Khan')
 name = "John Doe" # Put your name in quotes here
@@ -38,23 +38,23 @@ elif choice == "saloot":
         while done == False:
                 try:
                         # Find newest unread message
-                        user = driver.find_element_by_xpath('//span[@class = "{}"]//ancestor::div[4]'.format("OUeyt"))
+                        user = driver.find_element_by_xpath('//span[@class = "{}"]//ancestor::div[4]'.format("eJ0yJ _8Uqu5"))
                         user.click()
                         # Find textbox
-                        msg_box = driver.find_element_by_class_name('_3u328')
+                        msg_box = driver.find_element_by_class_name('_3uMse')
                         for elem in driver.find_elements_by_xpath('.//span[@class = "selectable-text invisible-space copyable-text"]'):
                                 receivedmsg = elem.text
                                 #print(elem.text)
                         msg = str(bot.get_response(receivedmsg))
                         # Tell receiver that this message is from a bot
-                        msg_box.send_keys("{0} is currently unavailable. You are currently chatting with his bot, Saloot.".format(name))
-                        button = driver.find_element_by_xpath("(//div[@class='hnQHL'])[2]").click()
-                        try:
-                                button.click()
-                        except AttributeError as e:
-                                print('')
+                        # msg_box.send_keys("{0} is currently unavailable. You are currently chatting with his bot, Saloot.".format(name))
+                        # button = driver.find_element_by_xpath("(//div[@class='_1JNuk'])[2]").click()
+                        # try:
+                        #        button.click()
+                        # except AttributeError as e:
+                        #        print('')
                         msg_box.send_keys(msg)
-                        button = driver.find_element_by_xpath("(//div[@class='hnQHL'])[2]").click()
+                        button = driver.find_element_by_xpath("(//div[@class='_1JNuk'])[2]").click()
                         try:
                                 button.click()
                         except AttributeError as e:
